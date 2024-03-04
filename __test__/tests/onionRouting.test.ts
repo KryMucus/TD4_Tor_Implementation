@@ -19,6 +19,7 @@ import {
   rsaEncrypt,
   symDecrypt,
   symEncrypt,
+  crypto,
 } from "../../src/crypto";
 const { validateEncryption } = require("./utils");
 
